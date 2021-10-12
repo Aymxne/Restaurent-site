@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCA,OAAO,CAAC,iHAAI;ADCZ,AAAA,YAAY,CAAC;EACZ,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CACpB;;AAED,AAAA,iBAAiB,CAAC;EACjB,SAAS,EAAE,MAAM;EACjB,KAAK,ECKI,OAAO;CDJhB;;AAED,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACvC,AAAA,YAAY,CAAC;IACZ,WAAW,EAAE,IAAI;IACjB,cAAc,EAAE,IAAI;GACpB;EAED,AAAA,iBAAiB,CAAC;IACjB,SAAS,EAAE,MAAM;GACjB",
+    "sources": [
+        "menu.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "menu.css"
+}
