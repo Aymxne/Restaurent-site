@@ -171,8 +171,12 @@ footer {
 }
 
 .footer__logo {
-	width: 150px;
+	width: 180px;
 	margin-bottom: 2rem;
+
+	img {
+		object-fit: cover;
+	}
 }
 
 .footer__desc {

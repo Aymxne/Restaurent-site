@@ -95,7 +95,7 @@ header {
   .nav__close {
     display: block;
     position: absolute;
-    color: #3b413a;
+    color: #37323e;
     right: 1rem;
     top: 1rem;
     cursor: pointer;
@@ -172,8 +172,13 @@ footer {
 }
 
 .footer__logo {
-  width: 150px;
+  width: 180px;
   margin-bottom: 2rem;
+}
+
+.footer__logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer__desc {
@@ -184,7 +189,7 @@ footer {
 
 .footer__social-title {
   font-size: 1.8rem;
-  color: #3b413a;
+  color: #37323e;
   margin-bottom: 1rem;
 }
 
@@ -209,7 +214,7 @@ footer {
 .footer__text-title {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #3b413a;
+  color: #37323e;
 }
 
 .footer__text a {
@@ -331,7 +336,7 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  color: #3b413a;
+  color: #37323e;
 }
 
 .store__info-text {
@@ -367,7 +372,7 @@ footer {
   font-size: 1.8rem;
   margin-bottom: 2rem;
   font-weight: 600;
-  color: #3b413a;
+  color: #37323e;
 }
 
 .dish__grid-wrapper {
@@ -421,7 +426,7 @@ footer {
   font-size: 1.4rem;
   line-height: 1.3em;
   font-weight: 500;
-  color: #3b413a;
+  color: #37323e;
   margin-bottom: 0.5rem;
 }
 
