@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap");
+.ourStory__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.ourStory__title,
+.ourGoals__title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #37323e;
+  margin-bottom: 1rem;
+}
+
+.ourStory__subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #37323e;
+  margin-bottom: 2rem;
+}
+
+.ourStory__text,
+.ourGoals__text {
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  color: #3f3c3c;
+}
+
+@media only screen and (min-width: 768px) {
+  .ourStory__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 3rem;
+  }
+  .ourStory__img,
+  .ourStory__info {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .ourStory__title,
+  .ourGoals__title {
+    font-size: 3.6rem;
+  }
+  .ourStory__subtitle {
+    font-size: 1.8rem;
+  }
+  .ourStory__text,
+  .ourGoals__text {
+    font-size: 1.8rem;
+    max-width: 800px;
+  }
+}
+
+/* Our Goal Styles */
+.ourGoals__info {
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.ourGoals__imgs-wrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ourGoals__imgs-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.ourGoals__img1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+@media only screen and (min-width: 768px) {
+  .ourGoals__info {
+    text-align: center;
+  }
+  .ourGoals__imgs-wrapper {
+    gap: 2rem;
+  }
+  .ourGoals__text {
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=about.css.map */

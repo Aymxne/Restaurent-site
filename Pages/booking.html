@@ -78,7 +78,74 @@
 			</div>
 		</header>
 		<!-- Nav Section End -->
-		<h1>Booking Page</h1>
+		<!-- Booking Section Start -->
+		<section id="form" data-aos="zoom-in-up">
+			<div class="container">
+				<h3 class="form__title">Book Table</h3>
+				<div class="form__wrapper">
+					<form action="#">
+						<div class="form__group">
+							<label for="firstName">First Name</label>
+							<input type="text" id="firstName" name="first_name" required />
+						</div>
+						<div class="form__group">
+							<label for="lastName">Last Name</label>
+							<input type="text" id="lastName" name="last_name" required />
+						</div>
+						<div class="form__group">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" required />
+						</div>
+						<div class="form__group">
+							<label for="tableType">Table Type</label>
+							<select name="table_type" id="tableType">
+								<option selected disabled>Choose</option>
+								<option value="small">Small - 2 people</option>
+								<option value="medium">Medium - 4 people</option>
+								<option value="large">Large - 6 people</option>
+							</select>
+						</div>
+						<div class="form__group">
+							<label for="guesNumber">Number of Guest</label>
+							<input
+								type="number"
+								id="guestNumber"
+								name="gues_number"
+								min="1"
+								max="10"
+								required
+							/>
+						</div>
+						<div class="form__group">
+							<label for="placement">Table Placement</label>
+							<select name="placement" id="placement">
+								<option selected disabled>Choose</option>
+
+								<option value="indoor">Indoor</option>
+								<option value="outdoor">Outdoor</option>
+								<option value="lakeView">Lake View</option>
+								<option value="cityView">City View</option>
+							</select>
+						</div>
+
+						<div class="form__group">
+							<label for="date">Select Date</label>
+							<input type="date" id="date" name="date" required />
+						</div>
+						<div class="form__group">
+							<label for="time">Select Time</label>
+							<input type="time" id="time" name="time" required />
+						</div>
+						<div class="form__group form__group__full">
+							<label for="note">Note</label>
+							<textarea name="note" id="note" rows="4" required></textarea>
+						</div>
+						<button type="submit" class="btn primary-btn">Book Table</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- Booking Section End -->
 
 		<!-- Footer Section Start -->
 		<footer class="footer">

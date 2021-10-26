@@ -471,4 +471,92 @@ footer {
     margin-bottom: 1rem;
   }
 }
+
+/* Form Styling Complenent */
+#form {
+  padding: 5rem 0;
+}
+
+.form__title {
+  font-size: 1.8rem;
+  color: #37323e;
+  font-weight: 600;
+}
+
+.form__wrapper {
+  padding: 3rem 0;
+}
+
+.form__wrapper form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.form__group label {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #3f3c3c;
+  font-weight: 500;
+}
+
+.form__group input,
+.form__group textarea,
+.form__group select {
+  width: 100%;
+  border: none;
+  background-color: #d6e5d8;
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  color: #3f3c3c;
+}
+
+.form__group textarea {
+  resize: vertical;
+}
+
+.form__wrapper button[type="submit"] {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border: none;
+  padding: 1rem 4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+/* Form Responsive */
+@media only screen and (min-width: 768px) {
+  .form__title {
+    font-size: 3.6rem;
+  }
+  .form__wrapper {
+    padding: 5rem 0;
+  }
+  .form__wrapper form {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .form__group__full {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+  .form__group label {
+    font-size: 1.8rem;
+  }
+  .form__group input,
+  .form__group select,
+  .form__group textarea {
+    font-size: 1.8rem;
+    padding: 2rem 1rem;
+    margin-top: 1.5rem;
+  }
+}
 /*# sourceMappingURL=components.css.map */
